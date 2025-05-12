@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - linstor_cluster.yaml
+  - linstor_satellite_configuration.yaml
+  - linstor_storage_pool.yaml
+  - linstor_storage_class.yaml
